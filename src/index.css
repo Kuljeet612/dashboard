@@ -5,9 +5,73 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #ececec;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#showActivityData {
+  position: absolute;
+  bottom: 10%;
+  right: 15%;
+  font-size: 36px;
+  color:lightseagreen;
+  cursor: pointer;
+}
+.addNewTab {
+  fill: lightseagreen;
+  font-size: 24px;
+  opacity: 0.8;
+}
+.addTabIconContainer {
+  align-items: center;
+  justify-content: center;
+  display:inline-block;
+  margin-left: 5%;
+  cursor: pointer;
+}
+.closeTabIconContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 12px;
+}
+.nav-tabs .nav-link.active {
+  color: lightseagreen;
+  background-color: #ececec;
+  border-bottom: 3px solid lightseagreen;
+  margin-bottom: 6px;
+  opacity: 0.8;
+  font-weight: 600;
+}
+.nav-tabs .nav-link {
+  color: grey;
+  font-weight: 600;
+}
+.bar-chart-wrapper {
+  display: inline-block;
+  width:50vw;
+}
+.multi-range-slider .bar-inner {
+  background-color: lightseagreen !important;
+}
+.rect.highcharts-point.highcharts-color-0 {
+  fill:lightseagreen !important;
+}
+.sliderContainer {
+  display: inline-block;
+  position: absolute;
+  float: right;
+  background-color: #fff;
+  margin:8%
+}
+.bg-color {
+  background-color: #fff;
+}
+.headingStyles {
+  font-weight: 400;
+  background-color: #ececec;
 }
